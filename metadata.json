@@ -1,0 +1,6 @@
+{
+  "name": "VNQFF-05: Quantum-Enhanced Fraud Detection",
+  "description": "Unified hybrid quantum-classical digital payment fraud detection platform featuring Qiskit parameterized circuits, graph network analysis, explainable risk scoring, and real-time response.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

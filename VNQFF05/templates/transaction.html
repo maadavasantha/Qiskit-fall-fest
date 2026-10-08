@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transaction Analyzer - VNQFF-05</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header class="top-nav">
+        <div class="brand">VNQFF-05 Quantum Fraud Detection</div>
+        <nav class="nav-links">
+            <a href="/">Dashboard</a>
+            <a href="/transaction">Analyze</a>
+            <a href="/quantum">Quantum Lab</a>
+            <a href="/network">Fraud Graph</a>
+            <a href="/response">Response Center</a>
+        </nav>
+    </header>
+    <main class="container">
+        <h2>Real-Time Transaction Analyzer</h2>
+        <form id="txnForm">
+            <label>User ID: <input type="text" id="userId" value="U1001"></label><br><br>
+            <label>Amount (₹): <input type="number" id="amount" value="85000"></label><br><br>
+            <label>Beneficiary: <input type="text" id="beneficiaryId" value="B204"></label><br><br>
+            <label>Device ID: <input type="text" id="deviceId" value="DEV901"></label><br><br>
+            <label>Location: <input type="text" id="location" value="Hyderabad"></label><br><br>
+            <button type="submit">Analyze Transaction</button>
+        </form>
+        <div id="resultBox" style="margin-top:20px;"></div>
+    </main>
+    <script src="/static/js/transaction.js"></script>
+</body>
+</html>

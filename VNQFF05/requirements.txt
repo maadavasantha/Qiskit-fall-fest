@@ -1,0 +1,24 @@
+# VNQFF-05: Quantum-Enhanced Digital Payment Fraud Detection
+# Python 3.10 Compatible Dependencies
+
+# Core Backend Framework
+Flask==3.0.3
+Werkzeug==3.0.3
+flask-cors==4.0.1
+
+# Data Science & Classical ML
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+joblib==1.4.2
+
+# Quantum Machine Learning Stack (Qiskit 1.x Compatible)
+qiskit==1.0.2
+qiskit-algorithms==0.3.0
+
+# Network & Graph Analysis (Fraud Rings & Mule Accounts)
+networkx==3.3
+
+# Utilities & Visualization
+matplotlib==3.8.4
+python-dateutil==2.9.0
